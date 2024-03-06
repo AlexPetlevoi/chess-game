@@ -49,16 +49,10 @@ object Piece {
       }
       seq.forall { case (rank, file) => !pieces.contains(Position(rank, file)) }
     } else false
-
-    //      val stepByStep = if (isSameFile) (source until destination).forall(rank => !pieces.contains(Position(rank, from.file)))
-    //      else (source until destination).forall(file => !pieces.contains(Position(from.rank, file)))
-    //      stepByStep
-
   }
 
   def generateSequence(from: Position, to: Position) = {
     val rSeq = if (from.rank > to.rank)((from.rank - 1).until(to.rank, -1)) else ((from.rank + 1) until to.rank)
-//    val fSeq = if (to.file > from.file) ((to.file - 1).until(from.file, -1)) else ((to.file + 1) until from.file)
     val fSeq = if (from.file > to.file)((from.file - 1).until(to.file, -1)) else ((from.file + 1) until to.file)
     (rSeq.toList, fSeq.toList)
   }

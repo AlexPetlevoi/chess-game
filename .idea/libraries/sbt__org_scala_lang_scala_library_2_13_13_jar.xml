@@ -9,7 +9,6 @@
         <root url="file://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/jline/jline/3.24.1/jline-3.24.1.jar" />
         <root url="file://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.13/scala-compiler-2.13.13.jar" />
         <root url="file://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.13/scala-reflect-2.13.13.jar" />
-        <root url="file://$PROJECT_DIR$/../chess-test-old (1)/userinput.jar" />
       </compiler-classpath>
     </properties>
     <CLASSES>
