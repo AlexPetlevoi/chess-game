@@ -14,5 +14,6 @@ object Main extends App {
 //    case Right(_) => println("End Game")
 //  }
 
-  println(new Game(sampleMoves).letTheGameBegin())
+  println(new Game(sampleMoves_checkMate).letTheGameBegin())
+//  println(new Game(sampleMoves).readMove())
 }
